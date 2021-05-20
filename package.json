@@ -1,16 +1,18 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-sicesi-custom",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A custom-made Gatsby theme for the Sicesi website.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Martin <alex@sicesi.fr>",
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
     "gatsby": "^3.0.0",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
     "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-react-svg": "^3.0.1",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
@@ -41,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/sicesi/sicesi"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/sicesi/sicesi/issues"
   }
 }

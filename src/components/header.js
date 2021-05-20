@@ -1,42 +1,17 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import SicesiLogo from "./sicesi.inline.svg"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#111`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const Header = () => (
+  <header>
+    <div className="px-8 md:px-12 lg:px-16 py-8 max-w-4xl mx-auto my-0">
+      <h1 className="m-0">
+        <Link to="/" className="text-white no-underline">
+          <SicesiLogo className="logo h-4 md:h-5 w-auto" />
         </Link>
       </h1>
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
