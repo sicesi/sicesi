@@ -6,7 +6,7 @@ import GithubLogo from "./github.inline.svg"
 
 const Footer = () => (
   <footer className="mt-16 text-gray-100 w-full mt-16">
-    <BackgroundWaves />
+    <BackgroundWaves className="-mx-8" />
     <div className="bg-gray-700">
       <div className="px-8 md:px-12 lg:px-16 py-8 max-w-4xl mx-auto my-0 flex justify-between items-center">
         <div className="flex">
