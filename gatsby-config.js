@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `sicesi`,
-    description: `Édition web depuis 2006.`,
+    title: `Sicesi`,
+    description: `Médias & services indépendants, depuis 2006.`,
     author: `Alex Martin`,
   },
   plugins: [
@@ -29,8 +29,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
   ],
 }
