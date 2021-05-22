@@ -15,6 +15,7 @@ const SiteCard = ({
       href={link}
       target="_blank"
       rel="noreferrer"
+      aria-label={"Accéder au site " + title}
       className="flex flex-col md:flex-row"
     >
       <div className="w-auto transform scale-80 lg:scale-100 w-72 md:-ml-3 lg:w-auto lg:ml-auto">

@@ -26,6 +26,7 @@ module.exports = {
         sicesiBlue: "#00A3E0",
         sicesiOrange: "#F8853F",
         sicesiGray: "#374151",
+        footerGray: "#A4AFC1",
         lightBlue: colors.lightBlue,
         orange: colors.orange,
         blueGray: colors.blueGray,

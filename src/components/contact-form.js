@@ -68,6 +68,7 @@ class ContactForm extends React.Component {
                   <div className="flex justify-end">
                     <button
                       type="submit"
+                      aria-label="Envoyer"
                       className="transition duration-150 ease-in-out flex items-center justify-center bg-gradient-to-b from-sicesiOrange to-orange-600 opacity-90 text-white p-4 border-0 border-transparent rounded-full hover:opacity-100"
                     >
                       <SendIcon className="h-5" />

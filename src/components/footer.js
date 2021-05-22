@@ -11,11 +11,11 @@ const Footer = () => (
       <div className="px-8 md:px-12 lg:px-16 py-8 max-w-4xl mx-auto my-0 flex justify-between items-center">
         <div className="flex">
           <SicesiLogo className="logo h-3 md:h-5 w-auto filter opacity-50 brightness-full" />
-          <span className="font-light text-sm leading-6 text-gray-400 ml-2 hidden md:inline-block">
+          <span className="font-light text-sm leading-6 text-footerGray ml-2 hidden md:inline-block">
             © {new Date().getFullYear()}
           </span>
         </div>
-        <span className="text-xs md:text-sm italic font-light text-gray-400">
+        <span className="text-xs md:text-sm italic font-light text-footerGray">
           <span className="text-sicesiOrange">*</span> moyennes mensuelles
         </span>
         <div className="flex">
@@ -23,6 +23,7 @@ const Footer = () => (
             href="https://twitter.com/sicesi_fr"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="Accéder au compte Twitter de Sicesi"
           >
             <TwitterLogo className="p-2 h-8 md:h-10 w-auto filter opacity-50 brightness-full" />
           </a>
@@ -30,6 +31,7 @@ const Footer = () => (
             href="https://github.com/sicesi/"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="Accéder au compte GitHub de Sicesi"
           >
             <GithubLogo className="ml p-2 h-8 md:h-10 w-auto filter opacity-50 brightness-full" />
           </a>

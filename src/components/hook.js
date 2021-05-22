@@ -19,6 +19,7 @@ class Hook extends React.Component {
         <div className="flex align-start">
           <a
             href="#contact"
+            aria-label="Accéder au formulaire de contact"
             className="transition duration-150 ease-in-out flex bg-gradient-to-b from-sicesiOrange to-orange-600 opacity-90 hover:opacity-100 text-white font-bold flex items-center justify-center py-2 px-7 border-0 border-transparent text-base font-medium rounded-full hover:bg-orange-600 md:text-lg"
           >
             Contactez-nous
