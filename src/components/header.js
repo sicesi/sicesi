@@ -6,7 +6,11 @@ const Header = () => (
   <header>
     <div className="px-8 md:px-12 lg:px-16 py-8 max-w-4xl mx-auto my-0">
       <h1 className="m-0">
-        <Link to="/" className="text-white no-underline">
+        <Link
+          to="/"
+          aria-label="Retour à l'accueil"
+          className="text-white no-underline"
+        >
           <SicesiLogo className="logo h-4 md:h-5 w-auto" />
         </Link>
       </h1>

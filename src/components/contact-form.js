@@ -10,7 +10,7 @@ class ContactForm extends React.Component {
             <div className="p-0 lg:col-span-2 lg:pr-8 lg:mt-16 lg:pb-20 xl:pr-12 p-0 md:pt-8">
               <div className="max-w-lg mx-auto text-left lg:text-right">
                 <h2 className="text-3xl mb-2 font-extrabold tracking-tight text-sicesiGray sm:text-3xl">
-                  Contactez-nous<span class="text-sicesiOrange">.</span>
+                  Contactez-nous<span className="text-sicesiOrange">.</span>
                 </h2>
                 <p className="mt-3 text-base md:text-lg text-gray-500">
                   Vous avez des questions ?
