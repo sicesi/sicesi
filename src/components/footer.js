@@ -25,7 +25,7 @@ const Footer = () => (
             rel="noreferrer noopener"
             aria-label="Accéder au compte Twitter de Sicesi"
           >
-            <TwitterLogo className="p-2 h-8 md:h-10 w-auto filter opacity-50 brightness-full" />
+            <TwitterLogo className="p-3 h-12 w-auto filter opacity-50 brightness-full" />
           </a>
           <a
             href="https://github.com/sicesi/"
@@ -33,7 +33,7 @@ const Footer = () => (
             rel="noreferrer noopener"
             aria-label="Accéder au compte GitHub de Sicesi"
           >
-            <GithubLogo className="ml p-2 h-8 md:h-10 w-auto filter opacity-50 brightness-full" />
+            <GithubLogo className="p-3 h-12 w-auto filter opacity-50 brightness-full" />
           </a>
         </div>
       </div>
