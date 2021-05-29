@@ -1,11 +1,39 @@
 module.exports = {
   siteMetadata: {
     title: `Sicesi`,
+    siteUrl: `https://www.sicesi.fr`,
     description: `Médias & services indépendants, depuis 2006.`,
     author: `Alex Martin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://www.sicesi.fr`,
+      },
+    },
+    `gatsby-plugin-force-trailing-slashes`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        excludes: [`/merci`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.sicesi.fr`,
+        sitemap: `https://www.sicesi.fr/sitemap/sitemap-index.xml`,
+        policy: [
+          {
+            userAgent: `*`,
+            allow: `/`,
+            disallow: [`/merci`],
+          },
+        ],
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

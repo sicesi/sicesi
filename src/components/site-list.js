@@ -5,7 +5,7 @@ import SiteCard from "./site-card"
 
 const SiteList = () => {
   return (
-    <div className="flex justify-between content-between flex-wrap mt-10 space-y-10 md:mt-20 md:space-y-20 lg:mt-32 lg:space-y-32">
+    <div className="flex justify-between content-between flex-wrap mt-10 space-y-10 md:mt-20 md:space-y-20 lg:space-y-32 hd:my-32 fhd:my-48 qhd:my-64">
       {
         /* PromoAlert */
         <SiteCard

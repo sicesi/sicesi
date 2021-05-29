@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
     return (
       <div className="" id="contact">
         <div className="relative">
-          <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5 mt-16">
+          <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5 mt-16 fhd:mb-16 qhd:mb-22">
             <div className="p-0 lg:col-span-2 lg:pr-8 lg:mt-16 lg:pb-20 xl:pr-12 p-0 md:pt-8">
               <div className="max-w-lg mx-auto text-left lg:text-right">
                 <h2 className="text-3xl mb-2 font-extrabold tracking-tight text-sicesiGray sm:text-3xl">

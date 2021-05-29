@@ -34,6 +34,11 @@ module.exports = {
       boxShadow: {
         inner: "inset 0px 1px 3px #C4D0DD",
       },
+      screens: {
+        hd: { raw: "(min-height: 600px)" },
+        fhd: { raw: "(min-height: 900px)" },
+        qhd: { raw: "(min-height: 1200px)" },
+      },
     },
   },
   variants: {

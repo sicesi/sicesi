@@ -4,7 +4,7 @@ class Hook extends React.Component {
   render() {
     return (
       <div className="mb-16">
-        <h1 className="text-4xl leading-none sm:text-5xl tracking-tight mt-4 md:mt-16 mb-6 font-extrabold">
+        <h1 className="text-4xl leading-none sm:text-5xl tracking-tight mt-4 md:mt-16 qhd:mt-32 mb-6 font-extrabold">
           <span className="text-sicesiBlue">Médias &amp;&nbsp;services</span>
           <br />
           <span className="text-gray-700">indépendants</span>
