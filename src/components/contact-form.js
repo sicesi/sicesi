@@ -77,7 +77,7 @@ class ContactForm extends React.Component {
                   <input
                     type="hidden"
                     name="_next"
-                    value="http://localhost:8000/merci"
+                    value="https://www.sicesi.fr/merci"
                   />
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="_lang" value="fr" />
