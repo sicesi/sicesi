@@ -25,6 +25,7 @@ class ContactForm extends React.Component {
                   action="https://form.taxi/s/w4uhcghs"
                   method="POST"
                   className="mt-8 flex flex-col space-y-4"
+                  onsubmit="fathom.trackGoal('949EV4EO', 0);"
                 >
                   <div>
                     <div className="mt-1">
